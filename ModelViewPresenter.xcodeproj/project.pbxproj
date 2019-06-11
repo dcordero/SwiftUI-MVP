@@ -24,6 +24,7 @@
 		FF91FEA522AC696C00C9180A /* LoggedInImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA422AC696C00C9180A /* LoggedInImp.swift */; };
 		FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA622AC6A4700C9180A /* Wireframe.swift */; };
 		FF91FEA922AC7E4600C9180A /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA822AC7E4600C9180A /* LoginUI.swift */; };
+		FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FF91FEA422AC696C00C9180A /* LoggedInImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInImp.swift; sourceTree = "<group>"; };
 		FF91FEA622AC6A4700C9180A /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		FF91FEA822AC7E4600C9180A /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				FF91FEA822AC7E4600C9180A /* LoginUI.swift */,
 				FF91FE7F22AC5F1100C9180A /* LoginView.swift */,
+				FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */,
 				FF91FE9822AC625E00C9180A /* LoginViewModel.swift */,
 			);
 			path = View;
@@ -246,6 +249,7 @@
 				FF8539D422AD479A00F13E87 /* LoggedInUI.swift in Sources */,
 				FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */,
 				FF91FEA322AC694E00C9180A /* LoggedInPresenter.swift in Sources */,
+				FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */,
 				FF91FEA922AC7E4600C9180A /* LoginUI.swift in Sources */,
 				FF91FEA122AC690600C9180A /* LoggedInView.swift in Sources */,
 				FF91FE8022AC5F1100C9180A /* LoginView.swift in Sources */,

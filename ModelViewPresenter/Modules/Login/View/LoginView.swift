@@ -17,10 +17,7 @@ struct LoginView: View, LoginUI {
         
         NavigationView {
             VStack {
-                TextField($viewModel.username, placeholder: Text("username"))
-                    .border(Color.gray)
-                TextField($viewModel.password, placeholder: Text("password"))
-                    .border(Color.gray)
+                CredentialsView(username: $viewModel.username, password: $viewModel.password)
                 
                 Button(action: loginButtonWasPressed) {
                     Text("Login")

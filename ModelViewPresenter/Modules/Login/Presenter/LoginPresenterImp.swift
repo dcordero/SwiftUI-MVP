@@ -21,7 +21,7 @@ final class LoginPresenterImp: LoginPresenter {
         if viewModel.username == "" || viewModel.password == "" {
             viewModel.errorMessage = "Please provide your username and password"
         }
-        else if viewModel.username != "admin" || viewModel.password != "12345" {
+        else if viewModel.username != "Admin" || viewModel.password != "12345" {
             viewModel.errorMessage = "The provided credentials are not correct"
         }
         else if let hostingUI = hostingUI {
