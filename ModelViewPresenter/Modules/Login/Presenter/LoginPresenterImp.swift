@@ -2,7 +2,7 @@ import UIKit
 
 final class LoginPresenterImp: LoginPresenter {
     
-    var hostingUI: UIViewController?
+    weak var hostingUI: UIViewController?
     var viewModel: LoginViewModel
     var wireframe: Wireframe
     
