@@ -5,8 +5,9 @@ final class LoggedInServiceLocator {
     static func provideLoggedInViewController() -> UIViewController {
         let presenter = LoggedInPresenterImp(wireframe: Wireframe.shared)
         let view = LoggedInView(presenter: presenter)
-        presenter.ui = view
+        let viewController = UIHostingController(rootView: view)
+        presenter.hostingUI = viewController
         
-        return UIHostingController(rootView: view)
+        return viewController
     }
 }

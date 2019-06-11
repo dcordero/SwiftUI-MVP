@@ -1,8 +1,8 @@
-import Foundation
+import UIKit
 
 final class LoggedInPresenterImp: LoggedInPresenter {
     
-    var ui: LoggedInView?
+    var hostingUI: UIViewController?
     var wireframe: Wireframe
 
     init(wireframe: Wireframe) {
@@ -16,6 +16,6 @@ final class LoggedInPresenterImp: LoggedInPresenter {
     }
     
     func logoutButtonWasPressed() {
-        wireframe.dismissLoggedIn()
+        wireframe.dismiss(hostingUI)
     }
 }

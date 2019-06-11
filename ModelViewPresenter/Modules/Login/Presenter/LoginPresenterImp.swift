@@ -1,8 +1,8 @@
-import Foundation
+import UIKit
 
 final class LoginPresenterImp: LoginPresenter {
     
-    var ui: LoginUI?
+    var hostingUI: UIViewController?
     var viewModel: LoginViewModel
     var wireframe: Wireframe
     
@@ -24,9 +24,9 @@ final class LoginPresenterImp: LoginPresenter {
         else if viewModel.username != "admin" || viewModel.password != "12345" {
             viewModel.errorMessage = "The provided credentials are not correct"
         }
-        else {
+        else if let hostingUI = hostingUI {
             viewModel.errorMessage = ""
-            wireframe.presentLoggedIn()
+            wireframe.presentLoggedIn(from: hostingUI)
         }
         
         viewModel.username = ""
