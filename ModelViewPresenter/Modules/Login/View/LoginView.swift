@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct LoginView: View, LoginUI {
+struct LoginView: View {
     
-    var presenter: LoginPresenter?
+    private var presenter: LoginPresenter?
     
-    @ObjectBinding var viewModel: LoginViewModel
+    @ObjectBinding private var viewModel: LoginViewModel
     
     init(presenter: LoginPresenter?, viewModel: LoginViewModel) {
         self.presenter = presenter

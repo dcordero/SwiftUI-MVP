@@ -3,10 +3,11 @@ import UIKit
 final class LoginPresenterImp: LoginPresenter {
     
     weak var hostingUI: UIViewController?
-    var viewModel: LoginViewModel
-    var wireframe: Wireframe
     
-    init(viewModel: LoginViewModel = LoginViewModel(), wireframe: Wireframe) {
+    private var viewModel: LoginViewModel
+    private var wireframe: Wireframe
+    
+    init(viewModel: LoginViewModel, wireframe: Wireframe) {
         self.viewModel = viewModel
         self.wireframe = wireframe
     }

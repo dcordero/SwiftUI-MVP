@@ -1,9 +1,13 @@
 import SwiftUI
 
-struct LoggedInView: View, LoggedInUI{
+struct LoggedInView: View {
     
-    var presenter: LoggedInPresenter?
+    private var presenter: LoggedInPresenter?
 
+    init(presenter: LoggedInPresenter?) {
+        self.presenter = presenter
+    }
+    
     // MARK: - View
     
     var body: some View {

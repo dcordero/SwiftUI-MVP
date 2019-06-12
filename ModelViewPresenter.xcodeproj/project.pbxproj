@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF8539D422AD479A00F13E87 /* LoggedInUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8539D322AD479A00F13E87 /* LoggedInUI.swift */; };
 		FF91FE7C22AC5F1100C9180A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FE7B22AC5F1100C9180A /* AppDelegate.swift */; };
 		FF91FE7E22AC5F1100C9180A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FE7D22AC5F1100C9180A /* SceneDelegate.swift */; };
 		FF91FE8022AC5F1100C9180A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FE7F22AC5F1100C9180A /* LoginView.swift */; };
@@ -21,14 +20,12 @@
 		FF91FE9F22AC68F600C9180A /* LoggedInServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FE9E22AC68F600C9180A /* LoggedInServiceLocator.swift */; };
 		FF91FEA122AC690600C9180A /* LoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA022AC690600C9180A /* LoggedInView.swift */; };
 		FF91FEA322AC694E00C9180A /* LoggedInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA222AC694E00C9180A /* LoggedInPresenter.swift */; };
-		FF91FEA522AC696C00C9180A /* LoggedInImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA422AC696C00C9180A /* LoggedInImp.swift */; };
+		FF91FEA522AC696C00C9180A /* LoggedInPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA422AC696C00C9180A /* LoggedInPresenterImp.swift */; };
 		FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA622AC6A4700C9180A /* Wireframe.swift */; };
-		FF91FEA922AC7E4600C9180A /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA822AC7E4600C9180A /* LoginUI.swift */; };
 		FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF8539D322AD479A00F13E87 /* LoggedInUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInUI.swift; sourceTree = "<group>"; };
 		FF91FE7822AC5F1100C9180A /* ModelViewPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelViewPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF91FE7B22AC5F1100C9180A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF91FE7D22AC5F1100C9180A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +41,8 @@
 		FF91FE9E22AC68F600C9180A /* LoggedInServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInServiceLocator.swift; sourceTree = "<group>"; };
 		FF91FEA022AC690600C9180A /* LoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInView.swift; sourceTree = "<group>"; };
 		FF91FEA222AC694E00C9180A /* LoggedInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInPresenter.swift; sourceTree = "<group>"; };
-		FF91FEA422AC696C00C9180A /* LoggedInImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInImp.swift; sourceTree = "<group>"; };
+		FF91FEA422AC696C00C9180A /* LoggedInPresenterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInPresenterImp.swift; sourceTree = "<group>"; };
 		FF91FEA622AC6A4700C9180A /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
-		FF91FEA822AC7E4600C9180A /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
 		FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +128,6 @@
 		FF91FE9222AC61C400C9180A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FF91FEA822AC7E4600C9180A /* LoginUI.swift */,
 				FF91FE7F22AC5F1100C9180A /* LoginView.swift */,
 				FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */,
 				FF91FE9822AC625E00C9180A /* LoginViewModel.swift */,
@@ -153,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				FF91FEA222AC694E00C9180A /* LoggedInPresenter.swift */,
-				FF91FEA422AC696C00C9180A /* LoggedInImp.swift */,
+				FF91FEA422AC696C00C9180A /* LoggedInPresenterImp.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -161,7 +156,6 @@
 		FF91FE9D22AC68E200C9180A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FF8539D322AD479A00F13E87 /* LoggedInUI.swift */,
 				FF91FEA022AC690600C9180A /* LoggedInView.swift */,
 			);
 			path = View;
@@ -241,16 +235,14 @@
 				FF91FE9522AC61DE00C9180A /* LoginPresenter.swift in Sources */,
 				FF91FE9B22AC65C700C9180A /* LoginServiceLocator.swift in Sources */,
 				FF91FE9722AC620F00C9180A /* LoginPresenterImp.swift in Sources */,
-				FF91FEA522AC696C00C9180A /* LoggedInImp.swift in Sources */,
+				FF91FEA522AC696C00C9180A /* LoggedInPresenterImp.swift in Sources */,
 				FF91FE9922AC625E00C9180A /* LoginViewModel.swift in Sources */,
 				FF91FE7C22AC5F1100C9180A /* AppDelegate.swift in Sources */,
 				FF91FE9F22AC68F600C9180A /* LoggedInServiceLocator.swift in Sources */,
 				FF91FE7E22AC5F1100C9180A /* SceneDelegate.swift in Sources */,
-				FF8539D422AD479A00F13E87 /* LoggedInUI.swift in Sources */,
 				FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */,
 				FF91FEA322AC694E00C9180A /* LoggedInPresenter.swift in Sources */,
 				FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */,
-				FF91FEA922AC7E4600C9180A /* LoginUI.swift in Sources */,
 				FF91FEA122AC690600C9180A /* LoggedInView.swift in Sources */,
 				FF91FE8022AC5F1100C9180A /* LoginView.swift in Sources */,
 			);

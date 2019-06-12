@@ -3,7 +3,8 @@ import UIKit
 final class LoggedInPresenterImp: LoggedInPresenter {
     
     weak var hostingUI: UIViewController?
-    var wireframe: Wireframe
+    
+    private var wireframe: Wireframe
 
     init(wireframe: Wireframe) {
         self.wireframe = wireframe
