@@ -12,7 +12,7 @@ final class LoggedInPresenterImp: LoggedInPresenter {
     // MARK: - LoginPresenter
     
     func viewDidAppear() {
-        print("> viewDidLoad")
+        print("> viewDidAppear")
     }
     
     func logoutButtonWasPressed() {
