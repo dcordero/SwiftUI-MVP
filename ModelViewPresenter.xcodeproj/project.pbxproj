@@ -22,7 +22,7 @@
 		FF91FEA322AC694E00C9180A /* LoggedInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA222AC694E00C9180A /* LoggedInPresenter.swift */; };
 		FF91FEA522AC696C00C9180A /* LoggedInPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA422AC696C00C9180A /* LoggedInPresenterImp.swift */; };
 		FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF91FEA622AC6A4700C9180A /* Wireframe.swift */; };
-		FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */; };
+		FFA8F94A242CB87B00973E57 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8F949242CB87B00973E57 /* CredentialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		FF91FEA222AC694E00C9180A /* LoggedInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInPresenter.swift; sourceTree = "<group>"; };
 		FF91FEA422AC696C00C9180A /* LoggedInPresenterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInPresenterImp.swift; sourceTree = "<group>"; };
 		FF91FEA622AC6A4700C9180A /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
-		FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
+		FFA8F949242CB87B00973E57 /* CredentialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 		FF91FE9222AC61C400C9180A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFA8F949242CB87B00973E57 /* CredentialsView.swift */,
 				FF91FE7F22AC5F1100C9180A /* LoginView.swift */,
-				FFDB568B22AFFAA100EFFF68 /* CredentialsView.swift */,
 				FF91FE9822AC625E00C9180A /* LoginViewModel.swift */,
 			);
 			path = View;
@@ -242,7 +242,7 @@
 				FF91FE7E22AC5F1100C9180A /* SceneDelegate.swift in Sources */,
 				FF91FEA722AC6A4700C9180A /* Wireframe.swift in Sources */,
 				FF91FEA322AC694E00C9180A /* LoggedInPresenter.swift in Sources */,
-				FFDB568C22AFFAA100EFFF68 /* CredentialsView.swift in Sources */,
+				FFA8F94A242CB87B00973E57 /* CredentialsView.swift in Sources */,
 				FF91FEA122AC690600C9180A /* LoggedInView.swift in Sources */,
 				FF91FE8022AC5F1100C9180A /* LoginView.swift in Sources */,
 			);

@@ -9,9 +9,9 @@ struct CredentialsView: View {
     
     var body: some View {
         VStack {
-            TextField($username, placeholder: Text("username"))
+            TextField("username", text: $username)
                 .border(Color.gray)
-            TextField($password, placeholder: Text("password"))
+            TextField("password", text: $password)
                 .border(Color.gray)
         }
     }

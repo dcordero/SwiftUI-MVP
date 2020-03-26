@@ -4,7 +4,8 @@ struct LoginView: View {
     
     private var presenter: LoginPresenter?
     
-    @ObjectBinding private var viewModel: LoginViewModel
+    @ObservedObject
+    private var viewModel: LoginViewModel
     
     init(presenter: LoginPresenter?, viewModel: LoginViewModel) {
         self.presenter = presenter
@@ -26,7 +27,7 @@ struct LoginView: View {
                 if !viewModel.errorMessage.isEmpty {
                     Text(viewModel.errorMessage)
                         .font(.caption)
-                        .color(Color.red)
+                        .foregroundColor(Color.red)
                         .padding(20)
                 }
                 

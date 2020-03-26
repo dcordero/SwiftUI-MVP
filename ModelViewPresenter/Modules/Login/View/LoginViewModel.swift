@@ -2,22 +2,14 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class LoginViewModel: BindableObject {
-    
-    let didChange = PassthroughSubject<LoginViewModel, Never>()
-    
+final class LoginViewModel: ObservableObject {
+        
     var username: String = ""
     var password: String = ""
     
-    var errorMessage: String = "" {
-        didSet {
-            didChange.send(self)
-        }
-    }
+    @Published
+    var errorMessage: String = ""
     
-    var numberOfAttempts: Int = 0 {
-        didSet {
-            didChange.send(self)
-        }
-    }
+    @Published
+    var numberOfAttempts: Int = 0
 }
